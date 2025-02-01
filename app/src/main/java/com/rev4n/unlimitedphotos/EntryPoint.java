@@ -265,6 +265,6 @@ public final class EntryPoint {
     }
 
     static void LOG(String msg) {
-        Log.d("FGP/Java", msg);
+        Log.d("FGP/Java:DG", msg);
     }
 }
