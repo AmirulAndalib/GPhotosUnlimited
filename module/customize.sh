@@ -20,4 +20,6 @@ for MODULE in Pixelify PixelifyPhotos unlimitedgpics  ; do
 done
 
 # Run common tasks for installation and boot-time
-[ -d "$MODPATH/zygisk" ] && . $MODPATH/common_setup.sh
+if [ -d "$MODPATH/zygisk" ]; then
+    . $MODPATH/common_setup.sh
+fi
